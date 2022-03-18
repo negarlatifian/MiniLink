@@ -8,11 +8,6 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-const validateUrl= (value:string) => {
-  return/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g
-  .test(value);
-}
-
 
 const App: FC = () => {
   const [isValid, setIsValid] = useState(true)
@@ -40,7 +35,7 @@ const App: FC = () => {
     setMiniUrl(miniUrl)
     axios.post('http://localhost:3001/shorten', newUrl)
   }
-
+ 
 
   return (
     <div className="App" >

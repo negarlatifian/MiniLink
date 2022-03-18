@@ -22,8 +22,14 @@ router.post('/shorten', async(req, res) => {
 router.get('/:id([a-z0-9]{5})', async(req, res) => {
     const miniUrl = req.params.id;
     const data = await Url.findOne({miniUrl: miniUrl}).exec();
-    const originalUrl = data.originalUrl;
-    res.redirect(307, originalUrl.toString())
+    if(data){
+        const originalUrl = data.originalUrl;
+        res.redirect(307, originalUrl.toString())
+    }else{
+        res.status(404).json('Not found');
+    }
 })
+
+
 
 module.exports = router 
