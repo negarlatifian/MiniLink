@@ -1,0 +1,54 @@
+@media all and (max-width: 768px) and (min-width: 481px) {
+  body {
+    background-image: url("../images/navbar.jpg");
+  }
+  .App__content {
+    margin-top: 2em;
+    width: 50%;
+    margin-left: 3em;
+    padding: 2em 3em 3em 3em;
+  }
+  .navbar {
+    margin-top: 1.5em;
+    font-size: 2em;
+  }
+  header {
+    font-size: 1.7em;
+    margin-left: 1.8em;
+  }
+  .App__content {
+    margin-top: 2em;
+    width: 6 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 3em 3em 3em;
+  }
+  .lastButtons {
+    padding: 0.3em;
+    font-size: 1em;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+  .navbar {
+    margin-left: 1.3em;
+  }
+  header {
+    font-size: 1.8em;
+  }
+  .App__content {
+    margin-top: 2em;
+    width: 35%;
+    margin-left: 3em;
+    padding: 2em 3em 3em 3em;
+  }
+  .lastButtons {
+    padding: 0.4em;
+    font-size: 1em;
+  }
+  .App__content {
+    margin-left: 2.3em;
+  }
+}
+@media all and (min-width: 1024px) {
+}

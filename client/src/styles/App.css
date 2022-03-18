@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+.App__content {
+  background-color: #7247bc;
+  margin-top: 2em;
+  width: 30%;
+  margin-left: 3em;
+  padding: 2em 4em 3em 4em;
+  border-radius: 2em;
+}
+
+.navbar {
+  font-family: "Paytone One", sans-serif;
+  margin-left: 1.7em;
+}
+header {
+  margin-top: 1em;
+  margin-left: 1.3em;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  color: whitesmoke;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.form__input {
+  margin-bottom: 1em;
+  padding: 0.9em;
+  border-radius: 0.8em;
+  border: 0.2em solid #e6eff7;
+}
+
+.form__button {
+  background-color: #df488b;
+  padding: 0.7em;
+  border: none;
+  color: #e6eff7;
+  font-size: 1.1em;
+  font-weight: 400;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.result__container {
+  margin-top: 1em;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #424160;
+  color: #e6eff7;
+  font-size: 0.7em;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.footer li {
+  margin: 1em;
+  cursor: pointer;
+}
+.error {
+  color: #dd435f;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+.button__container {
+  display: flex;
+  flex-direction: row;
+}
+.lastButtons {
+  background-color: #df488b;
+  padding: 0.7em;
+  border: none;
+  color: #e6eff7;
+  font-size: 1.1em;
+  font-weight: 400;
+  border-radius: 0.5em;
+  cursor: pointer;
+  width: 50%;
+}
+.button--refresh {
+  border-top-right-radius: 0em;
+  border-bottom-right-radius: 0em;
+  border-right: #e6eff7 solid 0.05em;
+}
+.button--copy {
+  border-top-left-radius: 0em;
+  border-bottom-left-radius: 0em;
+}
+.button--copied {
+  background-color: #6b89f9;
+  border-top-left-radius: 0em;
+  border-bottom-left-radius: 0em;
+}
