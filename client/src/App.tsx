@@ -34,7 +34,7 @@ const App: FC = () => {
     validate(url.originalUrl);
     setUrl([...urls, newUrl]);
     setMiniUrl(miniUrl);
-    axios.post('https://mini-link.onrender.com/shorten', newUrl);
+    axios.post('https://minilink-l48s.onrender.com/shorten', newUrl);
   };
 
   return (
