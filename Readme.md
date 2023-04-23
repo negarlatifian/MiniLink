@@ -1,7 +1,9 @@
 # MiniLink - Your Ultimate URL Shortener!
 
-Welcome to MiniLink - the ultimate solution to convert long, cumbersome URLs into crisp, snappy ones. Our app is built using TypeScript, React.js, MongoDB, and Express.js, which makes it both powerful and user-friendly.
+Welcome to MiniLink - the ultimate solution to convert long, cumbersome URLs into crisp, snappy ones. The app is built using TypeScript, React.js, MongoDB, and Express.js, which makes it both powerful and user-friendly.
 
+<br/>
+<br/>
 <div align = "center">
 <img src= "https://github.com/negarlatifian/MiniLink/blob/master/client/utils/Screenshot.png?raw=true"  />
 </div>
