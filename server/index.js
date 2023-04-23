@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.65pgd.mongodb.net/minilink?retryWrites=true&w=majority`
+  `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.nwwi9ow.mongodb.net/?retryWrites=true&w=majority`
 );
 
 //require the route
