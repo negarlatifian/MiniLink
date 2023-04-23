@@ -59,7 +59,7 @@ const InputForm = ({ onAdd, miniUrl }: Iform) => {
           <input
             type='text'
             className='form__input'
-            value={`https://minilink-l48s.onrender.com/${miniUrl}`}
+            value={`https://mini-link.onrender.com/${miniUrl}`}
           ></input>
           <div className='button__container'>
             <button
@@ -75,7 +75,7 @@ const InputForm = ({ onAdd, miniUrl }: Iform) => {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  const miniUrlFull = `https://minilink-l48s.onrender.com/${miniUrl}`;
+                  const miniUrlFull = `https://mini-link.onrender.com/${miniUrl}`;
                   navigator.clipboard.writeText(miniUrlFull);
                   setCopied(true);
                 }}
