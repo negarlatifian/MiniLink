@@ -75,7 +75,7 @@ const InputForm = ({ onAdd, miniUrl }: Iform) => {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  const miniUrlFull = `https://minilink-backend.onrender.com//${miniUrl}`;
+                  const miniUrlFull = `https://minilink-backend.onrender.com/${miniUrl}`;
                   navigator.clipboard.writeText(miniUrlFull);
                   setCopied(true);
                 }}
