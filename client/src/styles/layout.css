@@ -1,6 +1,7 @@
 @media all and (max-width: 768px) and (min-width: 481px) {
   body {
-    background-image: url("../images/navbar.jpg");
+    background-image: url('../images/navbar.jpg');
+    overflow: hidden;
   }
   .App__content {
     margin-top: 2em;
